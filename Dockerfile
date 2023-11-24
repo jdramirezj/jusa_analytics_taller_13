@@ -1,5 +1,6 @@
 FROM python:3.10
 
+
 # Crear usuario que ejecuta la app
 RUN adduser --disabled-password --gecos '' api-user
 
